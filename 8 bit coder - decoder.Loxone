@@ -1,0 +1,1345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlList Version="252" LxAV="76" NextObj="13" NextConst="1" NextNote="1" NextMem="1">
+	<C Type="Document" V="15050304" U="1eac7b52-014e-5ae1-ffffc1a52164e33e" Title="8 bit modbus register" WF="16384" ConfigVersion="15050304" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2025-04-23 08:51:36" CDate="" BDate="" DateS="514623096" Street="" Town="" PostCode="" Ctry="CZ" Latitude="0" Longitude="0" Logo="" uuidNotifications="1eac7b52-014d-5add-ffffc1a52164e33e" uuidFavSeq="1eac7b52-014d-5adf-ffffc1a52164e33e" uuidFavCol="1eac7b52-014d-5ae0-ffffc1a52164e33e" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="1eac7b52-014d-5ade-ffffc1a52164e33e" UnitPrecipitation="1" Currency="Kč" UpdTime="120" AUE="true" CrashL="true" Geo="0" NumO="417" APPKEY="89601D50EB5DFD2E4724F67566612B47" APPID="A54ACA">
+		<HP H="" Sc="-2" S="WGpiqX5LbyaIrGD1MuWTTyrxvlVqUpqf" Alg="1"/>
+		<C Type="LoxCaption" V="172" U="1eac7b52-014e-5ae3-ffffc1a52164e33e" Title="Ikony" Cl="0,0,0" WF="16384" CaptionType="5" SubType="5"/>
+		<C Type="CategoryCaption" V="172" U="1eac7b52-014e-5ae5-ffffc1a52164e33e" Title="Kategorie" WF="16384">
+			<C Type="Category" V="172" U="1eac7b52-015a-5c71-ffffc1a52164e33e" Title="Nepřiřazeno" WF="6307840" Icon="00000038-00ff-0000-0000000000000000" First="true" PType="2" RGR="1eac7b52-015a-5c73-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015a-5c75-ffffc1a52164e33e" Title="Osvětlení" WF="16384" Icon="00000153-00ff-0000-0000000000000000" Rating="1" UseFav="true" CatGroup="2" PType="2" BkColor="247,222,92" RGR="1eac7b52-015b-5c77-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015b-5c79-ffffc1a52164e33e" Title="Stínění" WF="16384" Icon="0000003b-00ff-0000-0000000000000000" Rating="1" UseFav="true" CatGroup="1" PType="2" BkColor="29,176,217" RGR="1eac7b52-015c-5c7b-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015c-5c7d-ffffc1a52164e33e" Title="Vytápění" WF="16384" Icon="00000196-00ff-0000-0000000000000000" CatGroup="8" PType="2" RGR="1eac7b52-015c-5c7f-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015c-5c81-ffffc1a52164e33e" Title="Topení &amp; chlazení" WF="16384" Icon="00000246-00ff-0000-0000000000000000" CatGroup="5" PType="2" BkColor="247,181,92" RGR="1eac7b52-015d-5c83-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015d-5c85-ffffc1a52164e33e" Title="Audio" WF="16384" Icon="0000016f-00ff-0000-0000000000000000" Rating="1" UseFav="true" CatGroup="4" PType="2" BkColor="121,51,105" RGR="1eac7b52-015d-5c87-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015d-5c89-ffffc1a52164e33e" Title="Čidlo" WF="16384" Icon="00000169-00ff-0000-0000000000000000" CatGroup="6" PType="2" RGR="1eac7b52-015d-5c8b-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015d-5c8d-ffffc1a52164e33e" Title="Hlavice" WF="16384" Icon="0000025a-00ff-0000-0000000000000000" CatGroup="7" PType="2" RGR="1eac7b52-015e-5c8f-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015e-5c91-ffffc1a52164e33e" Title="Teplota" WF="16384" Icon="00000246-00ff-0000-0000000000000000" CatGroup="3" PType="2" RGR="1eac7b52-015e-5c93-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015e-5c95-ffffc1a52164e33e" Title="Detektor přítomnosti" WF="16384" Icon="00000168-00ff-0000-0000000000000000" CatGroup="9" PType="2" BkColor="213,72,165" RGR="1eac7b52-015f-5c97-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015f-5c99-ffffc1a52164e33e" Title="Ventilace" WF="16384" Icon="00000100-00ff-0000-0000000000000000" CatGroup="10" PType="2" RGR="1eac7b52-015f-5c9b-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-015f-5c9d-ffffc1a52164e33e" Title="Okno" WF="16384" Icon="0000026f-00ff-0000-0000000000000000" CatGroup="58" PType="2" RGR="1eac7b52-0160-5c9f-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0160-5ca1-ffffc1a52164e33e" Title="Zabezpečení" WF="16384" Icon="0000004e-00ff-0000-0000000000000000" CatGroup="12" PType="2" RGR="1eac7b52-0160-5ca3-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0160-5ca5-ffffc1a52164e33e" Title="Chlazení" WF="16384" Icon="0000021f-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0161-5ca7-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0161-5ca9-ffffc1a52164e33e" Title="Alarm" WF="16384" Icon="00000008-00ff-0000-0000000000000000" Rating="1" UseFav="true" CatGroup="14" PType="2" BkColor="228,53,74" RGR="1eac7b52-0161-5cab-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0161-5cad-ffffc1a52164e33e" Title="Garážová vrata" WF="16384" Icon="0000035e-00ff-0000-0000000000000000" Rating="1" UseFav="true" CatGroup="15" PType="2" RGR="1eac7b52-0161-5caf-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0161-5cb1-ffffc1a52164e33e" Title="Wellness" WF="16384" Icon="00000202-00ff-0000-0000000000000000" CatGroup="16" PType="2" RGR="1eac7b52-0162-5cb3-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0162-5cb5-ffffc1a52164e33e" Title="Technická místnost" WF="16384" Icon="00000068-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0162-5cb7-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0162-5cb9-ffffc1a52164e33e" Title="Ventil topení" WF="16384" Icon="0000025b-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0162-5cbb-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0162-5cbd-ffffc1a52164e33e" Title="Brána" WF="16384" Icon="00000121-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0163-5cbf-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0163-5cc1-ffffc1a52164e33e" Title="Serverovna" WF="16384" Icon="0000006f-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0163-5cc3-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0163-5cc5-ffffc1a52164e33e" Title="Přístup" WF="16384" Icon="00000086-00ff-0000-0000000000000000" Rating="1" UseFav="true" CatGroup="31" PType="2" RGR="1eac7b52-0164-5cc7-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0164-5cc9-ffffc1a52164e33e" Title="Spotřebiče" WF="16384" Icon="00000099-00ff-0000-0000000000000000" CatGroup="33" PType="2" RGR="1eac7b52-0164-5ccb-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0164-5ccd-ffffc1a52164e33e" Title="Závlaha" WF="16384" Icon="00000265-00ff-0000-0000000000000000" CatGroup="35" PType="2" RGR="1eac7b52-0164-5ccf-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0164-5cd1-ffffc1a52164e33e" Title="Fotovoltaika" WF="16384" Icon="00000223-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0164-5cd3-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0164-5cd5-ffffc1a52164e33e" Title="Monitorování" WF="16384" Icon="0000026e-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0165-5cd7-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0165-5cd9-ffffc1a52164e33e" Title="Čas" WF="16384" Icon="0000005e-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0165-5cdb-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0165-5cdd-ffffc1a52164e33e" Title="Elektromobil" WF="16384" Icon="00000093-00ff-0000-0000000000000000" CatGroup="41" PType="2" RGR="1eac7b52-0165-5cdf-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0165-5ce1-ffffc1a52164e33e" Title="Slunce" WF="16384" Icon="00000235-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0166-5ce3-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0166-5ce5-ffffc1a52164e33e" Title="Budík" WF="16384" Icon="0000000b-00ff-0000-0000000000000000" CatGroup="43" PType="2" RGR="1eac7b52-0166-5ce7-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0166-5ce9-ffffc1a52164e33e" Title="Proud" WF="16384" Icon="00000107-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0166-5ceb-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0166-5ced-ffffc1a52164e33e" Title="Info" WF="16384" Icon="00000147-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0167-5cef-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0167-5cf1-ffffc1a52164e33e" Title="Cirkulační čerpadlo" WF="16384" Icon="0000005c-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0167-5cf3-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0167-5cf5-ffffc1a52164e33e" Title="Tepelné čerpadlo" WF="16384" Icon="00000132-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0167-5cf7-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0167-5cf9-ffffc1a52164e33e" Title="Počasí" WF="16384" Icon="0000007d-00ff-0000-0000000000000000" CatGroup="48" PType="2" RGR="1eac7b52-0167-5cfb-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0167-5cfd-ffffc1a52164e33e" Title="Vlhkost" WF="16384" Icon="00000261-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0168-5cff-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0168-5d01-ffffc1a52164e33e" Title="Multimedia" WF="16384" Icon="0000025e-00ff-0000-0000000000000000" CatGroup="4" PType="2" RGR="1eac7b52-0168-5d03-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0168-5d05-ffffc1a52164e33e" Title="Energie" WF="16384" Icon="00000107-00ff-0000-0000000000000000" CatGroup="51" PType="2" BkColor="50,122,231" RGR="1eac7b52-0168-5d07-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0168-5d09-ffffc1a52164e33e" Title="Nastavení" WF="16384" Icon="00000069-00ff-0000-0000000000000000" CatGroup="52" PType="2" RGR="1eac7b52-0168-5d0b-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0168-5d0d-ffffc1a52164e33e" Title="Noc" WF="16384" Icon="00000171-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0168-5d0f-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0168-5d11-ffffc1a52164e33e" Title="Oslava" WF="16384" Icon="0000017a-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0168-5d13-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0169-5d15-ffffc1a52164e33e" Title="Dům v hlubokém spánku" WF="16384" Icon="0000007e-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0169-5d17-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0169-5d19-ffffc1a52164e33e" Title="Nepřítomnost" WF="16384" Icon="0000001c-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0169-5d1b-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0169-5d1d-ffffc1a52164e33e" Title="Ovládání" WF="16384" Icon="00000102-00ff-0000-0000000000000000" CatGroup="57" PType="2" RGR="1eac7b52-0169-5d1f-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0169-5d21-ffffc1a52164e33e" Title="Ochrana před bouřkou" WF="16384" Icon="00000211-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-0169-5d23-ffffc1a52164e33e"/>
+			<C Type="Category" V="172" U="1eac7b52-0169-5d25-ffffc1a52164e33e" Title="Zámraza" WF="16384" Icon="0000020f-00ff-0000-0000000000000000" PType="2" RGR="1eac7b52-016a-5d27-ffffc1a52164e33e"/>
+		</C>
+		<C Type="PlaceCaption" V="172" U="1eac7b52-014e-5ae7-ffffc1a52164e33e" Title="Místnosti" WF="16384">
+			<C Type="Place" V="172" U="1eac7b52-0150-5be5-ffffc1a52164e33e" Title="Nepřiřazeno" WF="6307840" Icon="0000015c-00ff-0000-0000000000000000" First="true" PType="2" RGR="1eac7b52-0150-5be7-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0150-5be9-ffffc1a52164e33e" Title="Hala v přízemí" WF="16384" Icon="00000216-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0151-5beb-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0151-5bed-ffffc1a52164e33e" Title="Hala v prvním patře" WF="16384" Icon="0000035f-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0151-5bef-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0151-5bf1-ffffc1a52164e33e" Title="Obývací pokoj" WF="16384" Icon="00000220-00ff-0000-0000000000000000" Rating="1" UseFav="true" PGroup="3" PType="2" RGR="1eac7b52-0152-5bf3-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0152-5bf5-ffffc1a52164e33e" Title="Kuchyně" WF="16384" Icon="0000005a-00ff-0000-0000000000000000" Rating="1" UseFav="true" PGroup="4" PType="2" RGR="1eac7b52-0152-5bf7-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0152-5bf9-ffffc1a52164e33e" Title="Koupelna" WF="16384" Icon="00000218-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0152-5bfb-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0152-5bfd-ffffc1a52164e33e" Title="Koupelna v prvním patře" WF="16384" Icon="00000219-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0153-5bff-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0153-5c01-ffffc1a52164e33e" Title="Ložnice" WF="16384" Icon="00000033-00ff-0000-0000000000000000" PGroup="7" PType="1" RGR="1eac7b52-0153-5c03-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0153-5c05-ffffc1a52164e33e" Title="Dětský pokoj" WF="16384" Icon="00000022-00ff-0000-0000000000000000" PType="1" RGR="1eac7b52-0153-5c07-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0153-5c09-ffffc1a52164e33e" Title="WC" WF="16384" Icon="00000249-00ff-0000-0000000000000000" PGroup="9" PType="3" RGR="1eac7b52-0154-5c0b-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0154-5c0d-ffffc1a52164e33e" Title="Šatna" WF="16384" Icon="00000062-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0154-5c0f-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0154-5c11-ffffc1a52164e33e" Title="Garáž" WF="16384" Icon="0000035e-00ff-0000-0000000000000000" PGroup="11" PType="3" RGR="1eac7b52-0154-5c13-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0154-5c15-ffffc1a52164e33e" Title="Veranda" WF="16384" Icon="0000026e-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0155-5c17-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0155-5c19-ffffc1a52164e33e" Title="Schodiště" WF="16384" Icon="0000022c-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0155-5c1b-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0155-5c1d-ffffc1a52164e33e" Title="Sauna" WF="16384" Icon="00000203-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0156-5c1f-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0156-5c21-ffffc1a52164e33e" Title="Zimní zahrada" WF="16384" Icon="0000010a-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0156-5c23-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0156-5c25-ffffc1a52164e33e" Title="Pracovna" WF="16384" Icon="0000006f-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0156-5c27-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0156-5c29-ffffc1a52164e33e" Title="Herna" WF="16384" Icon="00000151-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0157-5c2b-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0157-5c2d-ffffc1a52164e33e" Title="Prádelna" WF="16384" Icon="0000025f-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0157-5c2f-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0157-5c31-ffffc1a52164e33e" Title="Místnost na žehlení" WF="16384" Icon="00000148-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0157-5c33-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0157-5c35-ffffc1a52164e33e" Title="Posilovna" WF="16384" Icon="0000008d-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0158-5c37-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0158-5c39-ffffc1a52164e33e" Title="Terasa" WF="16384" Icon="00000057-00ff-0000-0000000000000000" PType="5" RGR="1eac7b52-0158-5c3b-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0158-5c3d-ffffc1a52164e33e" Title="Zahrada" WF="16384" Icon="0000010c-00ff-0000-0000000000000000" PType="5" RGR="1eac7b52-0158-5c3f-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0158-5c41-ffffc1a52164e33e" Title="Jídelna" WF="16384" Icon="0000014b-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0158-5c43-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0158-5c45-ffffc1a52164e33e" Title="Podkroví" WF="16384" Icon="0000001a-00ff-0000-0000000000000000" PType="3" RGR="1eac7b52-0159-5c47-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0159-5c49-ffffc1a52164e33e" Title="Sklep" WF="16384" Icon="00000051-00ff-0000-0000000000000000" PType="5" RGR="1eac7b52-0159-5c4b-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0159-5c4d-ffffc1a52164e33e" Title="Bar" WF="16384" Icon="00000063-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0159-5c4f-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0159-5c51-ffffc1a52164e33e" Title="Konferenční místnost" WF="16384" Icon="00000167-00ff-0000-0000000000000000" Rating="1" UseFav="true" PType="2" RGR="1eac7b52-0159-5c53-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0159-5c55-ffffc1a52164e33e" Title="Bazén" WF="16384" Icon="0000018e-00ff-0000-0000000000000000" Rating="1" UseFav="true" PGroup="42" PType="2" RGR="1eac7b52-0159-5c57-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-0159-5c59-ffffc1a52164e33e" Title="Chodba" WF="16384" Icon="0000012c-00ff-0000-0000000000000000" PGroup="43" PType="3" RGR="1eac7b52-015a-5c5b-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-015a-5c5d-ffffc1a52164e33e" Title="Okolí domu" WF="16384" Icon="00000253-00ff-0000-0000000000000000" PGroup="44" PType="5" RGR="1eac7b52-015a-5c5f-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-015a-5c61-ffffc1a52164e33e" Title="Technická místnost" WF="16384" Icon="00000068-00ff-0000-0000000000000000" PType="4" RGR="1eac7b52-015a-5c63-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-015a-5c65-ffffc1a52164e33e" Title="Centrální funkce" WF="16384" Icon="00000052-00ff-0000-0000000000000000" PGroup="48" PType="4" RGR="1eac7b52-015a-5c67-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-015a-5c69-ffffc1a52164e33e" Title="Serverovna" WF="16384" Icon="0000020a-00ff-0000-0000000000000000" PType="4" RGR="1eac7b52-015a-5c6b-ffffc1a52164e33e"/>
+			<C Type="Place" V="172" U="1eac7b52-015a-5c6d-ffffc1a52164e33e" Title="Kotelna" WF="16384" Icon="00000350-00ff-0000-0000000000000000" PType="4" RGR="1eac7b52-015a-5c6f-ffffc1a52164e33e"/>
+		</C>
+		<C Type="LoxCaption" V="172" U="1eac7b52-014f-5ae9-ffffc1a52164e33e" Title="Oznámení Push: Registrovaná zařízení" Cl="0,0,0" WF="16384" CaptionType="28" SubType="28"/>
+		<C Type="LoxCaption" V="172" U="1eac7b52-014f-5aeb-ffffc1a52164e33e" Title="Uživatelé a oprávnění" Cl="0,0,0" WF="16384" CaptionType="20" SubType="20">
+			<C Type="UserCaption" V="172" U="1eac7b52-014f-5aed-ffffc1a52164e33e" Title="Uživatel" WF="16384" UsCf0="" UsCf1="" UsCf2="" UsCf3="" UsCf4="" CaptionType="30" SubType="30">
+				<C Type="User" V="172" U="1eac7b52-016a-5d29-ffffc1a52164e33e" Title="admin" WF="16384" Main="true" IDS="" OcId="" FiN="" LaN="" Ema="" Phn="" UsId="" UsCo="" UsDp="" UsPn="" UsTt="" UsDb="" UsCf0="" UsCf1="" UsCf2="" UsCf3="" UsCf4="" AppGroup="0" UsR="-1" UsRnA="1664" iBtnArr="" CodeArr="" NFCArr="" NFCNArr="" UnsP="true" EAIdArr="" LastEdit="514620242">
+					<HP H="BA26B009D773F131A1A28B8085D3F8485DF9C4400E8ECFEE1E913C238DB4885F69731A1229942489BE366364701862BDDC6296EE84E09EF68A8B9FBE1520473B" Sc="0" S="31656163376235322D303136612D356432612D66666666633739656231363337386562" Alg="1"/>
+					<HP H="" Sc="-2" S="" Alg="1"/>
+					<PH NUM="1">
+						<PRM REF="1eac7b52-0150-5bdf-ffffc1a52164e33e" ACT="3"/>
+					</PH>
+				</C>
+			</C>
+			<C Type="LoxCaption" V="172" U="1eac7b52-014f-5bcd-ffffc1a52164e33e" Title="Oprávnění" Cl="0,0,0" CaptionType="12" SubType="12">
+				<C Type="Permission" V="172" U="1eac7b52-014f-5bcf-ffffc1a52164e33e" Title="Loxone Config" Cl="0,0,0" WF="6307840" PT="1"/>
+				<C Type="Permission" V="172" U="1eac7b52-014f-5bd1-ffffc1a52164e33e" Title="FTP" Cl="0,0,0" WF="6307840" PT="2"/>
+				<C Type="Permission" V="172" U="1eac7b52-014f-5bd3-ffffc1a52164e33e" Title="Webové rozhraní/aplikace" Cl="0,0,0" WF="6307840" PT="3"/>
+				<C Type="Permission" V="172" U="1eac7b52-014f-5bd5-ffffc1a52164e33e" Title="Kalendář" Cl="0,0,0" WF="6307840" PT="4"/>
+				<C Type="Permission" V="172" U="1eac7b52-014f-5bd7-ffffc1a52164e33e" Title="Designer Automatiky a Scény" Cl="0,0,0" WF="6307840" PT="5"/>
+				<C Type="Permission" V="172" U="1eac7b52-014f-5bd9-ffffc1a52164e33e" Title="Změna vizualizace" Cl="0,0,0" WF="6307840" PT="6"/>
+				<C Type="Permission" V="172" U="1eac7b52-0150-5bdb-ffffc1a52164e33e" Title="Správa uživatelů" Cl="0,0,0" WF="6307840" PT="7"/>
+				<C Type="Permission" V="172" U="1eac7b52-0150-5bdd-ffffc1a52164e33e" Title="Aktualizace Miniserveru" Cl="0,0,0" WF="6307840" PT="8"/>
+				<C Type="Permission" V="172" U="1eac7b52-0150-5bdf-ffffc1a52164e33e" Title="Změna vlastního hesla" Cl="0,0,0" WF="6307840" PT="9"/>
+				<C Type="Permission" V="172" U="1eac7b52-0150-5be1-ffffc1a52164e33e" Title="Záloha Miniserveru" Cl="0,0,0" WF="6307840" PT="10"/>
+			</C>
+			<C Type="LoxCaption" V="172" U="1eac7b52-0150-5be3-ffffc1a52164e33e" Title="Skupiny oprávnění" Cl="0,0,0" WF="4096" CaptionType="13" SubType="13">
+				<C Type="RightGroup" V="172" U="1eac7b52-0150-5be7-ffffc1a52164e33e" Title="Nepřiřazeno" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0151-5beb-ffffc1a52164e33e" Title="Hala v přízemí" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0151-5bef-ffffc1a52164e33e" Title="Hala v prvním patře" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0152-5bf3-ffffc1a52164e33e" Title="Obývací pokoj" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0152-5bf7-ffffc1a52164e33e" Title="Kuchyně" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0152-5bfb-ffffc1a52164e33e" Title="Koupelna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0153-5bff-ffffc1a52164e33e" Title="Koupelna v prvním patře" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0153-5c03-ffffc1a52164e33e" Title="Ložnice" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0153-5c07-ffffc1a52164e33e" Title="Dětský pokoj" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0154-5c0b-ffffc1a52164e33e" Title="WC" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0154-5c0f-ffffc1a52164e33e" Title="Šatna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0154-5c13-ffffc1a52164e33e" Title="Garáž" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0155-5c17-ffffc1a52164e33e" Title="Veranda" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0155-5c1b-ffffc1a52164e33e" Title="Schodiště" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0156-5c1f-ffffc1a52164e33e" Title="Sauna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0156-5c23-ffffc1a52164e33e" Title="Zimní zahrada" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0156-5c27-ffffc1a52164e33e" Title="Pracovna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0157-5c2b-ffffc1a52164e33e" Title="Herna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0157-5c2f-ffffc1a52164e33e" Title="Prádelna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0157-5c33-ffffc1a52164e33e" Title="Místnost na žehlení" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0158-5c37-ffffc1a52164e33e" Title="Posilovna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0158-5c3b-ffffc1a52164e33e" Title="Terasa" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0158-5c3f-ffffc1a52164e33e" Title="Zahrada" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0158-5c43-ffffc1a52164e33e" Title="Jídelna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0159-5c47-ffffc1a52164e33e" Title="Podkroví" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0159-5c4b-ffffc1a52164e33e" Title="Sklep" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0159-5c4f-ffffc1a52164e33e" Title="Bar" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0159-5c53-ffffc1a52164e33e" Title="Konferenční místnost" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0159-5c57-ffffc1a52164e33e" Title="Bazén" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015a-5c5b-ffffc1a52164e33e" Title="Chodba" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015a-5c5f-ffffc1a52164e33e" Title="Okolí domu" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015a-5c63-ffffc1a52164e33e" Title="Technická místnost" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015a-5c67-ffffc1a52164e33e" Title="Centrální funkce" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015a-5c6b-ffffc1a52164e33e" Title="Serverovna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015a-5c6f-ffffc1a52164e33e" Title="Kotelna" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015a-5c73-ffffc1a52164e33e" Title="Nepřiřazeno" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015b-5c77-ffffc1a52164e33e" Title="Osvětlení" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015c-5c7b-ffffc1a52164e33e" Title="Stínění" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015c-5c7f-ffffc1a52164e33e" Title="Vytápění" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015d-5c83-ffffc1a52164e33e" Title="Topení &amp; chlazení" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015d-5c87-ffffc1a52164e33e" Title="Audio" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015d-5c8b-ffffc1a52164e33e" Title="Čidlo" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015e-5c8f-ffffc1a52164e33e" Title="Hlavice" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015e-5c93-ffffc1a52164e33e" Title="Teplota" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015f-5c97-ffffc1a52164e33e" Title="Detektor přítomnosti" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-015f-5c9b-ffffc1a52164e33e" Title="Ventilace" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0160-5c9f-ffffc1a52164e33e" Title="Okno" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0160-5ca3-ffffc1a52164e33e" Title="Zabezpečení" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0161-5ca7-ffffc1a52164e33e" Title="Chlazení" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0161-5cab-ffffc1a52164e33e" Title="Alarm" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0161-5caf-ffffc1a52164e33e" Title="Garážová vrata" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0162-5cb3-ffffc1a52164e33e" Title="Wellness" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0162-5cb7-ffffc1a52164e33e" Title="Technická místnost" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0162-5cbb-ffffc1a52164e33e" Title="Ventil topení" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0163-5cbf-ffffc1a52164e33e" Title="Brána" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0163-5cc3-ffffc1a52164e33e" Title="Serverovna" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0164-5cc7-ffffc1a52164e33e" Title="Přístup" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0164-5ccb-ffffc1a52164e33e" Title="Spotřebiče" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0164-5ccf-ffffc1a52164e33e" Title="Závlaha" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0164-5cd3-ffffc1a52164e33e" Title="Fotovoltaika" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0165-5cd7-ffffc1a52164e33e" Title="Monitorování" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0165-5cdb-ffffc1a52164e33e" Title="Čas" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0165-5cdf-ffffc1a52164e33e" Title="Elektromobil" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0166-5ce3-ffffc1a52164e33e" Title="Slunce" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0166-5ce7-ffffc1a52164e33e" Title="Budík" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0166-5ceb-ffffc1a52164e33e" Title="Proud" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0167-5cef-ffffc1a52164e33e" Title="Info" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0167-5cf3-ffffc1a52164e33e" Title="Cirkulační čerpadlo" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0167-5cf7-ffffc1a52164e33e" Title="Tepelné čerpadlo" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0167-5cfb-ffffc1a52164e33e" Title="Počasí" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0168-5cff-ffffc1a52164e33e" Title="Vlhkost" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0168-5d03-ffffc1a52164e33e" Title="Multimedia" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0168-5d07-ffffc1a52164e33e" Title="Energie" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0168-5d0b-ffffc1a52164e33e" Title="Nastavení" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0168-5d0f-ffffc1a52164e33e" Title="Noc" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0168-5d13-ffffc1a52164e33e" Title="Oslava" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0169-5d17-ffffc1a52164e33e" Title="Dům v hlubokém spánku" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0169-5d1b-ffffc1a52164e33e" Title="Nepřítomnost" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0169-5d1f-ffffc1a52164e33e" Title="Ovládání" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-0169-5d23-ffffc1a52164e33e" Title="Ochrana před bouřkou" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+				<C Type="RightGroup" V="172" U="1eac7b52-016a-5d27-ffffc1a52164e33e" Title="Zámraza" Cl="0,0,0" WF="16384" GT="2" MG=""/>
+			</C>
+			<C Type="UserGroupCaption" V="172" U="1eac7b52-014f-5aef-ffffc1a52164e33e" Title="Skupiny uživatelů" WF="16384">
+				<C Type="UserGroup" V="172" U="1eac7b52-016a-5d2c-ffffc1a52164e33e" Title="Uživatel" WF="16384" Rights="129" User="" UserGroups="" TMR="1eac7b52-014f-5bc9-ffffc1a52164e33e">
+					<PH NUM="2">
+						<PRM REF="1eac7b52-014f-5bd3-ffffc1a52164e33e" ACT="3"/>
+						<PRM REF="1eac7b52-014f-5bd9-ffffc1a52164e33e" ACT="3"/>
+					</PH>
+				</C>
+				<C Type="UserGroup" V="172" U="1eac7b52-016a-5d2e-ffffc1a52164e33e" Title="Nikdo" WF="16384" UgType="3" User="" UserGroups="" TMR="1eac7b52-014f-5bc9-ffffc1a52164e33e"/>
+				<C Type="UserGroup" V="172" U="1eac7b52-016a-5d30-ffffc1a52164e33e" Title="Plný přístup" WF="6307840" Rights="-1" UgType="4" User="1eac7b52-016a-5d29-ffffc1a52164e33e" UserGroups="" LEd="514620242" TMR="1eac7b52-014f-5bc9-ffffc1a52164e33e"/>
+			</C>
+			<C Type="LoxCaption" V="172" U="1eac7b52-014f-5bc7-ffffc1a52164e33e" Title="Přístupové plány" Cl="0,0,0" WF="16384" CaptionType="11" SubType="11">
+				<C Type="SwitchingTimer" V="172" U="1eac7b52-014f-5bc9-ffffc1a52164e33e" Title="Vždy" Cl="0,0,0" WF="16384" M="3" N="7" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000" FIX="1">
+					<Entry To="1440" V="1"/>
+					<Entry To="1440" Ix="1" V="1"/>
+					<Entry To="1440" Ix="2" V="1"/>
+					<Entry To="1440" Ix="3" V="1"/>
+					<Entry To="1440" Ix="4" V="1"/>
+					<Entry To="1440" Ix="5" V="1"/>
+					<Entry To="1440" Ix="6" V="1"/>
+				</C>
+				<C Type="SwitchingTimer" V="172" U="1eac7b52-014f-5bcb-ffffc1a52164e33e" Title="Nikdy" Cl="0,0,0" WF="16384" M="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000" FIX="2"/>
+			</C>
+		</C>
+		<C Type="ConstantCaption" V="172" U="1eac7b52-014f-5af1-ffffc1a52164e33e" Title="Konstanty" WF="16384"/>
+		<C Type="MemoryCaption" V="172" U="1eac7b52-014f-5af3-ffffc1a52164e33e" Title="Značky" WF="16384"/>
+		<C Type="ModeCaption" V="172" U="1eac7b52-014f-5af5-ffffc1a52164e33e" Title="Uživatelské režimy" WF="16384">
+			<C Type="Mode" V="172" U="00000000-0000-0001-1500000000000000" Title="Svátek" Nio="2" WF="16384">
+				<Co K="I" U="1eac7b52-014f-5b77-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b78-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0002-1500000000000000" Title="Dovolená" Nio="2" WF="16384" Mode="1">
+				<Co K="I" U="1eac7b52-014f-5b7b-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b7c-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0003-1500000000000000" Title="Volný den/školní prázdniny" Nio="2" WF="16384" Mode="2">
+				<Co K="I" U="1eac7b52-014f-5b7f-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b80-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0004-1500000000000000" Title="Pondělí" Nio="2" WF="16384" Mode="3">
+				<Co K="I" U="1eac7b52-014f-5b83-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b84-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0005-1500000000000000" Title="Úterý" Nio="2" WF="16384" Mode="4">
+				<Co K="I" U="1eac7b52-014f-5b87-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b88-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0006-1500000000000000" Title="Středa" Nio="2" WF="16384" Mode="5">
+				<Co K="I" U="1eac7b52-014f-5b8b-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b8c-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0007-1500000000000000" Title="Čtvrtek" Nio="2" WF="16384" Mode="6">
+				<Co K="I" U="1eac7b52-014f-5b8f-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b90-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0008-1500000000000000" Title="Pátek" Nio="2" WF="16384" Mode="7">
+				<Co K="I" U="1eac7b52-014f-5b93-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b94-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-0009-1500000000000000" Title="Sobota" Nio="2" WF="16384" Mode="8">
+				<Co K="I" U="1eac7b52-014f-5b97-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b98-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-000a-1500000000000000" Title="Neděle" Nio="2" WF="16384" Mode="9">
+				<Co K="I" U="1eac7b52-014f-5b9b-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5b9c-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-000b-1500000000000000" Title="Perioda vytápění" Nio="2" WF="16384" Mode="10">
+				<Co K="I" U="1eac7b52-014f-5b9f-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5ba0-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="00000000-0000-000c-1500000000000000" Title="Perioda chlazení" Nio="2" WF="16384" Mode="11">
+				<Co K="I" U="1eac7b52-014f-5ba3-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5ba4-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="1eac7b52-014f-5ba9-ffffc1a52164e33e" Title="Alarm" Nio="2" WF="16384" Mode="-1">
+				<Co K="I" U="1eac7b52-014f-5ba7-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5ba8-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="1eac7b52-014f-5bad-ffffc1a52164e33e" Title="Simulace přítomnosti" Nio="2" WF="16384" Mode="-2">
+				<Co K="I" U="1eac7b52-014f-5bab-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5bac-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="1eac7b52-014f-5bb1-ffffc1a52164e33e" Title="Ochrana budovy" Nio="2" WF="16384" Mode="-3">
+				<Co K="I" U="1eac7b52-014f-5baf-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5bb0-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="1eac7b52-014f-5bb5-ffffc1a52164e33e" Title="Zvýšená spotřeba tepla" Nio="2" WF="16384" Mode="-4">
+				<Co K="I" U="1eac7b52-014f-5bb3-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5bb4-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="1eac7b52-014f-5bb9-ffffc1a52164e33e" Title="Oslava" Nio="2" WF="16384" Mode="-5">
+				<Co K="I" U="1eac7b52-014f-5bb7-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5bb8-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="Mode" V="172" U="1eac7b52-014f-5bbd-ffffc1a52164e33e" Title="Nepřítomnost" Nio="2" WF="16384" Mode="-6">
+				<Co K="I" U="1eac7b52-014f-5bbb-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5bbc-01ffc1a52164e33e"/>
+				<IoData></IoData>
+				<Display StateOnly="true"/>
+			</C>
+		</C>
+		<C Type="CalendarCaption" V="172" U="1eac7b52-014f-5af7-ffffc1a52164e33e" Title="Kalendáře" WF="16384">
+			<C Type="CalendarEntry" V="172" U="1eac7b52-014f-5bc1-ffffc1a52164e33e" Title="Perioda vytápění" Nio="2" WF="16384" CalType="10" Mode="4" Month="10" Day="1" Month2="4" Day2="30" WeekDayInMonth="1">
+				<Co K="I" U="1eac7b52-014f-5bbf-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5bc0-01ffc1a52164e33e"/>
+			</C>
+			<C Type="CalendarEntry" V="172" U="1eac7b52-014f-5bc5-ffffc1a52164e33e" Title="Perioda chlazení" Nio="2" WF="16384" CalType="11" Mode="4" Month="5" Day="1" Month2="9" Day2="30" WeekDayInMonth="1">
+				<Co K="I" U="1eac7b52-014f-5bc3-00ffc1a52164e33e"/>
+				<Co K="Q" U="1eac7b52-014f-5bc4-01ffc1a52164e33e"/>
+			</C>
+		</C>
+		<C Type="RemoteControls" V="172" U="1eac7b52-014f-5af9-ffffc1a52164e33e" Title="Dálková ovládání" WF="16384"/>
+		<C Type="TimeCaption" V="172" U="1eac7b52-014f-5afb-ffffc1a52164e33e" Title="Časové funkce" Cl="0,0,0" WF="16384">
+			<C Type="Day2009" V="172" U="1eac7b52-014f-5afe-ffffc1a52164e33e" Title="Dny od roku 2009" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5afd-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Year" V="172" U="1eac7b52-014f-5b01-ffffc1a52164e33e" Title="Rok" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b00-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Month" V="172" U="1eac7b52-014f-5b04-ffffc1a52164e33e" Title="Měsíc" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b03-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Day" V="172" U="1eac7b52-014f-5b07-ffffc1a52164e33e" Title="Den" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b06-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="DayOfWeek" V="172" U="1eac7b52-014f-5b0a-ffffc1a52164e33e" Title="Den v týdnu" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b09-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Calendar" V="172" U="1eac7b52-014f-5b0d-ffffc1a52164e33e" Title="Aktivní kalendář" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b0c-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Time" V="172" U="1eac7b52-014f-5b10-ffffc1a52164e33e" Title="Minuty od půlnoci" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b0f-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Hour" V="172" U="1eac7b52-014f-5b13-ffffc1a52164e33e" Title="Hodina" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b12-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Minute" V="172" U="1eac7b52-014f-5b16-ffffc1a52164e33e" Title="Minuty" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b15-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Second" V="172" U="1eac7b52-014f-5b19-ffffc1a52164e33e" Title="Sekundy" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b18-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="SecondsBoot" V="172" U="1eac7b52-014f-5b1c-ffffc1a52164e33e" Title="Sekundy od spuštění" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b1b-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Sunrise" V="172" U="1eac7b52-014f-5b1f-ffffc1a52164e33e" Title="Čas východu Slunce" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b1e-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Sunset" V="172" U="1eac7b52-014f-5b22-ffffc1a52164e33e" Title="Čas západu Slunce" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b21-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Daylight" V="172" U="1eac7b52-014f-5b25-ffffc1a52164e33e" Title="Denní světlo" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b24-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Daylight2" V="172" U="1eac7b52-014f-5b28-ffffc1a52164e33e" Title="Denní světlo 30 minut" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b27-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Morningtwilight" V="172" U="1eac7b52-014f-5b2b-ffffc1a52164e33e" Title="Čas rozednění" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b2a-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="Eveningtwilight" V="172" U="1eac7b52-014f-5b2e-ffffc1a52164e33e" Title="Čas soumraku" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b2d-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="SunAltitude" V="172" U="1eac7b52-014f-5b31-ffffc1a52164e33e" Title="Výška Slunce" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b30-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="SunAzimuth" V="172" U="1eac7b52-014f-5b34-ffffc1a52164e33e" Title="Směr Slunce" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b33-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="StartPulse" V="172" U="1eac7b52-014f-5b37-ffffc1a52164e33e" Title="Počáteční impulz" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b36-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseYear" V="172" U="1eac7b52-014f-5b3a-ffffc1a52164e33e" Title="Impulz při změně roku" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b39-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseMonth" V="172" U="1eac7b52-014f-5b3d-ffffc1a52164e33e" Title="Impulz při změně měsíce" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b3c-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseDay" V="172" U="1eac7b52-014f-5b40-ffffc1a52164e33e" Title="Impulz při změně dne" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b3f-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseHour" V="172" U="1eac7b52-014f-5b43-ffffc1a52164e33e" Title="Impulz při změně hodiny" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b42-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseMinute" V="172" U="1eac7b52-014f-5b46-ffffc1a52164e33e" Title="Impulz při změně minuty" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b45-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseSecond" V="172" U="1eac7b52-014f-5b49-ffffc1a52164e33e" Title="Impulz při změně sekundy" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b48-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseSunrise" V="172" U="1eac7b52-014f-5b4c-ffffc1a52164e33e" Title="Impulz při východu Slunce" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b4b-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseSunset" V="172" U="1eac7b52-014f-5b4f-ffffc1a52164e33e" Title="Impulz při západu Slunce" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b4e-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseMorningtwilight" V="172" U="1eac7b52-014f-5b52-ffffc1a52164e33e" Title="Impulz při rozednění" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b51-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="ImpulseEveningtwilight" V="172" U="1eac7b52-014f-5b55-ffffc1a52164e33e" Title="Impulz při setmění" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b54-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="DateTime" V="172" U="1eac7b52-014f-5b58-ffffc1a52164e33e" Title="Unix Timestamp" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b57-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+			<C Type="NightTime" V="172" U="1eac7b52-014f-5b5b-ffffc1a52164e33e" Title="Noc" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b5a-00ffc1a52164e33e"/>
+				<IoData></IoData>
+			</C>
+			<C Type="Week" V="172" U="1eac7b52-014f-5b5e-ffffc1a52164e33e" Title="Týden" Nio="1" WF="16384">
+				<Co K="Q" U="1eac7b52-014f-5b5d-00ffc1a52164e33e"/>
+				<IoData St="4"/>
+			</C>
+		</C>
+		<C Type="WeatherServer" V="172" U="1eac7b65-002e-5f1c-ffffc1a52164e33e" Title="Server počasí " Cl="0,0,0" SType="0" Address="http://weather.loxone.com:6066" EnableSys="true" VisuUUID="1eac0000-002e-5f1a-ffff12ca3726e573" SpStates="1eac7b65-002e-5f1b-ffff12ca3726e573">
+			<IoData Visu="true"/>
+			<C Type="WeatherData" IName="WDC34" V="172" U="1eac7b65-002e-5f1f-ffffc1a52164e33e" Title="Sluneční svit" Nio="1" WF="16384" WType="34" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f1e-00ff12ca3726e573"/>
+				<Display StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC1" V="172" U="1eac7b65-002e-5f22-ffffc1a52164e33e" Title="Teplota" Nio="1" WF="16384" WType="1" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f21-00ff12ca3726e573"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC3" V="172" U="1eac7b65-002e-5f25-ffffc1a52164e33e" Title="Rel. vlhkost vzduchu" Nio="1" WF="16384" WType="3" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f24-00ff12ca3726e573"/>
+				<Display Unit="&lt;v&gt;%" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC4" V="172" U="1eac7b65-002e-5f28-ffffc1a52164e33e" Title="Rychlost větru" Nio="1" WF="16384" WType="4" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f27-00ff12ca3726e573"/>
+				<Display Unit="&lt;v&gt;km/h" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC5" V="172" U="1eac7b65-002e-5f2b-ffffc1a52164e33e" Title="Směr větru" Nio="1" WF="16384" WType="5" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f2a-00ff12ca3726e573"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC7" V="172" U="1eac7b65-002e-5f2e-ffffc1a52164e33e" Title="Absolutní záření" Nio="1" WF="16384" WType="7" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f2d-00ff12ca3726e573"/>
+				<Display Unit="&lt;v&gt;W/m²" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC9" V="172" U="1eac7b65-002e-5f31-ffffc1a52164e33e" Title="Srážky" Nio="1" WF="16384" WType="9" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f30-00ff12ca3726e573"/>
+				<Display Unit="&lt;v.1&gt;mm" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC11" V="172" U="1eac7b65-002e-5f34-ffffc1a52164e33e" Title="Tlak vzduchu" Nio="1" WF="16384" WType="11" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002e-5f33-00ff12ca3726e573"/>
+				<Display Unit="&lt;v&gt;hPa" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC26" V="172" U="1eac7b65-002f-5f37-ffffc1a52164e33e" Title="Vnímaná teplota" Nio="1" WF="16384" WType="26" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002f-5f36-00ff12ca3726e573"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC35" V="172" U="1eac7b65-002f-5f3a-ffffc1a52164e33e" Title="Znečištění částicemi (PM2.5)" Nio="1" WF="16384" WType="35" HzdType="FFFFFFFF" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002f-5f39-00ff12ca3726e573"/>
+				<Display Unit="&lt;v.1&gt;μg/m³" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+			<C Type="WeatherData" IName="WDC36" V="172" U="1eac7b65-002f-5f3d-ffffc1a52164e33e" Title="Varování před nebezpečím" Nio="1" WF="16384" WType="36" Offset="1" SLs="600" SLw="120">
+				<Co K="AQ" U="1eac7b65-002f-5f3c-00ff12ca3726e573"/>
+				<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+			</C>
+		</C>
+		<C Type="LoxCaption" V="172" U="1eac7b52-016a-5d38-ffffc1a52164e33e" Title="Spravované tablety" Cl="0,0,0" CaptionType="33" SubType="33"/>
+		<C Type="LoxCaption" V="172" U="1eac7b52-016a-5d36-ffffc1a52164e33e" Title="Síťová zařízení" Cl="0,0,0" WF="4096" CaptionType="6" SubType="6"/>
+		<C Type="LoxCaption" V="172" U="1eac7b52-016a-5d34-ffffc1a52164e33e" Title="Trusts" Cl="0,0,0" CaptionType="19" SubType="19"/>
+		<C Type="LoxCaption" V="172" U="1eac7b52-016a-5d32-ffffc1a52164e33e" Title="Audio" Cl="0,0,0" CaptionType="14" SubType="14"/>
+		<C Type="GlobalStates" V="172" U="1eac7b52-014f-5b75-ffffc1a52164e33e" Title="Systémové proměnné" Cl="0,0,0" SpStates="1eac7b52-014f-5b6c-ffffc1a52164e33e,1eac7b52-014f-5b6d-ffffc1a52164e33e,1eac7b52-014f-5b6e-ffffc1a52164e33e,1eac7b52-014f-5b6f-ffffc1a52164e33e,1eac7b52-014f-5b70-ffffc1a52164e33e,1eac7b52-014f-5b71-ffffc1a52164e33e,1eac7b52-014f-5b72-ffffc1a52164e33e,1eac7b52-014f-5b73-ffffc1a52164e33e,1eac7b52-014f-5b74-ffffc1a52164e33e">
+			<C Type="SysVar" IName="SYS1" V="172" U="1eac7b52-016a-5d3d-ffffc1a52164e33e" Title="Venkovní teplota" Cl="0,0,0" Nio="3" EU="1" WF="6307840" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-80" MaxVal="150" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d3a-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d3b-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d3c-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v.1&gt;°C" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS2" V="172" U="1eac7b52-016a-5d42-ffffc1a52164e33e" Title="Venkovní vlhkost vzduchu" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="1" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MaxVal="100" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d3f-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d40-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d41-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v.1&gt;%" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS3" V="172" U="1eac7b52-016a-5d47-ffffc1a52164e33e" Title="Rychlost větru" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="2" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d44-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d45-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d46-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v&gt;km/h" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS4" V="172" U="1eac7b52-016a-5d4c-ffffc1a52164e33e" Title="Sluneční svit" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="3" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d49-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d4a-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d4b-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS5" V="172" U="1eac7b52-016a-5d51-ffffc1a52164e33e" Title="Očekávané sluneční záření 12h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="4" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d4e-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d4f-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d50-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v&gt;Wh/m²" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS6" V="172" U="1eac7b52-016a-5d56-ffffc1a52164e33e" Title="Očekávané sluneční záření 24 h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="5" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d53-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d54-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d55-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v&gt;Wh/m²" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS7" V="172" U="1eac7b52-016a-5d5c-ffffc1a52164e33e" Title="Připojení k internetu" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="6" source="1eac7b52-016a-5d5c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10" SpStates="1eac7b52-016a-5d58-ffffc79eb16378eb" OM="false">
+				<Co K="AI" U="1eac7b52-016a-5d59-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d5a-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d5b-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0160-5ca1-ffffc1a52164e33e" Pr="1eac7b52-015a-5c65-ffffc1a52164e33e"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS8" V="172" U="1eac7b52-016a-5d61-ffffc1a52164e33e" Title="Déšť" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="7" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d5e-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d5f-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d60-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e"/>
+				<Display StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS9" V="172" U="1eac7b52-016a-5d66-ffffc1a52164e33e" Title="Očekávané znečištění částicemi" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="8" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10" Fch="24">
+				<Co K="AI" U="1eac7b52-016a-5d63-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d64-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d65-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v.1&gt;μg/m³" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS10" V="172" U="1eac7b52-016a-5d6b-ffffc1a52164e33e" Title="Očekávané srážky" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="9" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10" Fch="24">
+				<Co K="AI" U="1eac7b52-016a-5d68-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d69-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d6a-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v&gt;mm" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS11" V="172" U="1eac7b52-016a-5d70-ffffc1a52164e33e" Title="Očekávané sluneční záření" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="10" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10" Fch="24">
+				<Co K="AI" U="1eac7b52-016a-5d6d-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d6e-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d6f-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v&gt;Wh/m²" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS12" V="172" U="1eac7b52-016a-5d75-ffffc1a52164e33e" Title="Stav systému" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="11" source="1eac7b52-016a-5d75-ffffc1a52164e33e" MaxVal="4" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d72-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d73-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d74-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v&gt;" StateOnly="true"/>
+			</C>
+			<C Type="SysVar" IName="SYS13" V="172" U="1eac7b52-016a-5d7a-ffffc1a52164e33e" Title="Očekávaná průměrná venkovní teplota 48h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="12" source="1eac7b65-002e-5f1c-ffffc1a52164e33e" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
+				<Co K="AI" U="1eac7b52-016a-5d77-00ffc79eb16378eb"/>
+				<Co K="AQ" U="1eac7b52-016a-5d78-01ffc79eb16378eb"/>
+				<Co K="Q" U="1eac7b52-016a-5d79-02ffc79eb16378eb"/>
+				<IoData Cr="1eac7b52-0167-5cf9-ffffc1a52164e33e" Pr="1eac7b52-015a-5c5d-ffffc1a52164e33e" St="4"/>
+				<Display Unit="&lt;v.1&gt;°C" StateOnly="true"/>
+			</C>
+		</C>
+		<C Type="MessageCenter" V="172" U="1eac7b52-014f-5b6a-ffffc1a52164e33e" Title="Stav systému" Cl="0,0,0" WF="4096" SpStates="1eac7b52-014f-5b69-ffffc1a52164e33e">
+			<IoData></IoData>
+		</C>
+		<C Type="Devicemonitor" V="172" U="1eac7b52-014f-5b67-ffffc1a52164e33e" Title="Monitor zařízení" Cl="0,0,0" WF="4096" SpStates="1eac7b52-014f-5b66-ffffc1a52164e33e">
+			<IoData Visu="true"/>
+		</C>
+		<C Type="AutoPilot" V="172" U="1eac7b52-014f-5b64-ffffc1a52164e33e" Title="Automatická pravidla" Cl="0,0,0" Nio="2" WF="20480" SpStates="1eac7b52-014f-5b60-ffffc1a52164e33e,1eac7b52-014f-5b61-ffffc1a52164e33e">
+			<Co K="Input" U="1eac7b52-014f-5b62-00ffc1a52164e33e"/>
+			<Co K="output" U="1eac7b52-014f-5b63-01ffc1a52164e33e"/>
+		</C>
+		<C Type="LoxLIVE" V="172" U="1eac7b65-000f-5d7e-ffffc1a52164e33e" Title="8 bit modbus register" WF="16400" Miniserver="2" CycleUserProt="-1" SwitchBoardRow="1" SwitchBoardPos="1" ExtAddr="dns.loxonecloud.com" IntAddr="" IntAddr6="" ExP="80" ExP2="443" Pause="10" RxTimeout="1000" BaseID="-1" Serial="504F94A00000" Installation="" SwitchBoard="" RefAS="00000000-0000-0000-0000000000000000" HoN="">
+			<IoData Pr="1eac7b52-0150-5be5-ffffc1a52164e33e"/>
+			<C Type="InputCaption" V="172" U="1eac7b65-0011-5d86-ffffc1a52164e33e" Title="Digitální vstupy" WF="16384">
+				<C Type="DigitalIn" IName="I1" V="172" U="1eac7b65-0029-5ece-ffffc1a52164e33e" Title="Vstup 1" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5ecc-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5ecd-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I2" V="172" U="1eac7b65-0029-5ed2-ffffc1a52164e33e" Title="Vstup 2" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5ed0-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5ed1-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I3" V="172" U="1eac7b65-0029-5ed6-ffffc1a52164e33e" Title="Vstup 3" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5ed4-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5ed5-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I4" V="172" U="1eac7b65-0029-5eda-ffffc1a52164e33e" Title="Vstup 4" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5ed8-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5ed9-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I5" V="172" U="1eac7b65-0029-5ede-ffffc1a52164e33e" Title="Vstup 5" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5edc-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5edd-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I6" V="172" U="1eac7b65-0029-5ee2-ffffc1a52164e33e" Title="Vstup 6" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5ee0-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5ee1-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I7" V="172" U="1eac7b65-0029-5ee6-ffffc1a52164e33e" Title="Vstup 7" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5ee4-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5ee5-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+				<C Type="DigitalIn" IName="I8" V="172" U="1eac7b65-0029-5eea-ffffc1a52164e33e" Title="Vstup 8" Nio="2" WF="16384" ValOT="1" MinTime="10">
+					<Co K="Q" U="1eac7b65-0029-5ee8-00ff12ca3726e573"/>
+					<Co K="Qe" U="1eac7b65-0029-5ee9-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="AnalogInputCaption" V="172" U="1eac7b65-0011-5d88-ffffc1a52164e33e" Title="Analogové vstupy">
+				<C Type="VoltageIn" IName="AI1" V="172" U="1eac7b65-0029-5eee-ffffc1a52164e33e" Title="Napětí 1" Nio="2" WF="16384" ValOT="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1eac7b65-0029-5eec-00ff12ca3726e573"/>
+					<Co K="Q" U="1eac7b65-0029-5eed-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="4"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI2" V="172" U="1eac7b65-002a-5ef2-ffffc1a52164e33e" Title="Napětí 2" Nio="2" WF="16384" ValOT="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1eac7b65-0029-5ef0-00ff12ca3726e573"/>
+					<Co K="Q" U="1eac7b65-0029-5ef1-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="4"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI3" V="172" U="1eac7b65-002a-5ef6-ffffc1a52164e33e" Title="Napětí 3" Nio="2" WF="16384" ValOT="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1eac7b65-002a-5ef4-00ff12ca3726e573"/>
+					<Co K="Q" U="1eac7b65-002a-5ef5-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="4"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="VoltageIn" IName="AI4" V="172" U="1eac7b65-002a-5efa-ffffc1a52164e33e" Title="Napětí 4" Nio="2" WF="16384" ValOT="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000">
+					<Co K="AQ" U="1eac7b65-002a-5ef8-00ff12ca3726e573"/>
+					<Co K="Q" U="1eac7b65-002a-5ef9-01ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="4"/>
+					<Display Type="2" Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="OutputCaption" V="172" U="1eac7b65-0011-5d8a-ffffc1a52164e33e" Title="Digitální výstupy">
+				<C Type="Actor" IName="Q1" V="172" U="1eac7b65-002a-5efd-ffffc1a52164e33e" Title="Aktor (Relé) 1" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5efc-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q2" V="172" U="1eac7b65-002a-5f00-ffffc1a52164e33e" Title="Aktor (Relé) 2" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5eff-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q3" V="172" U="1eac7b65-002a-5f03-ffffc1a52164e33e" Title="Aktor (Relé) 3" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5f02-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q4" V="172" U="1eac7b65-002a-5f06-ffffc1a52164e33e" Title="Aktor (Relé) 4" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5f05-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q5" V="172" U="1eac7b65-002a-5f09-ffffc1a52164e33e" Title="Aktor (Relé) 5" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5f08-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q6" V="172" U="1eac7b65-002a-5f0c-ffffc1a52164e33e" Title="Aktor (Relé) 6" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5f0b-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q7" V="172" U="1eac7b65-002a-5f0f-ffffc1a52164e33e" Title="Aktor (Relé) 7" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5f0e-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+				<C Type="Actor" IName="Q8" V="172" U="1eac7b65-002a-5f12-ffffc1a52164e33e" Title="Aktor (Relé) 8" Nio="1" WF="16384">
+					<Co K="I" U="1eac7b65-002a-5f11-00ff12ca3726e573"/>
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+				</C>
+			</C>
+			<C Type="OvertempShutdown" IName="TSD" V="172" U="1eac7b65-0011-5d84-ffffc1a52164e33e" Title="Teplota vypnutí" Cl="0,0,0" Nio="1" WF="20480" ValOT="1" MinTime="10" Idx="-1">
+				<Co K="Q" U="1eac7b65-0011-5d83-00ff12ca3726e573"/>
+				<IoData Cr="1eac7b52-0160-5ca1-ffffc1a52164e33e" Pr="1eac7b52-015a-5c65-ffffc1a52164e33e" St="2"/>
+				<Display Unit="&lt;v&gt;" StateOnly="true"/>
+			</C>
+			<C Type="Online" IName="S4" V="172" U="1eac7b65-0011-5d81-ffffc1a52164e33e" Title="Omezení výkonu" Cl="0,0,0" Nio="1" WF="20480" ValOT="1" MinTime="10" EnoceanSubType="4">
+				<Co K="Q" U="1eac7b65-0011-5d80-00ff12ca3726e573"/>
+				<IoData Cr="1eac7b52-0160-5ca1-ffffc1a52164e33e" Pr="1eac7b52-015a-5c65-ffffc1a52164e33e" St="2"/>
+				<Display Unit="&lt;v&gt;" StateOnly="true"/>
+			</C>
+			<C Type="VirtualInCaption" V="172" U="1eac7b65-0011-5d8c-ffffc1a52164e33e" Title="Virtuální vstupy" WF="16384">
+				<C Type="VirtualIn" IName="VI1" V="172" U="1eac7d2e-0228-9213-ffffc1a52164e33e" Title="0 - 8" Nio="2" WF="16400" ValOT="1" Analog="true" EnVal="true" MaxVal="255">
+					<Co K="Q" U="1eac7d2e-0228-9211-00ffca1b6e52fa38"/>
+					<Co K="Qm" U="1eac7d2e-0228-9212-01ffca1b6e52fa38"/>
+					<IoData Visu="true" Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="4"/>
+					<Display Type="2" Unit="&lt;v.1&gt;"/>
+				</C>
+				<C Type="VirtualIn" IName="VI2" V="172" U="1eac7d2f-02f8-9512-ffffc1a52164e33e" Title="9 - 16" Nio="2" WF="16400" ValOT="1" Analog="true" EnVal="true" MaxVal="255">
+					<Co K="Q" U="1eac7d2f-02f8-9510-00ffaf60af88dfa4"/>
+					<Co K="Qm" U="1eac7d2f-02f8-9511-01ffaf60af88dfa4"/>
+					<IoData Visu="true" Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="4"/>
+					<Display Type="2" Unit="&lt;v.1&gt;"/>
+				</C>
+				<C Type="VirtualIn" IName="VI3" V="172" U="1eac7ed4-02c1-bc81-ffffc1a52164e33e" Title="16 bit" Nio="2" WF="16400" ValOT="1" Analog="true" EnVal="true" MaxVal="65535">
+					<Co K="Q" U="1eac7ed4-02c1-bc7f-00ff0d4320b8567b"/>
+					<Co K="Qm" U="1eac7ed4-02c1-bc80-01ff0d4320b8567b"/>
+					<IoData Visu="true" Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="4"/>
+					<Display Type="2" Unit="&lt;v.1&gt;"/>
+				</C>
+			</C>
+			<C Type="VirtualOutCaption" V="172" U="1eac7b65-0011-5d8e-ffffc1a52164e33e" Title="Virtuální výstupy" WF="16384"/>
+			<C Type="TaskCaption" V="172" U="1eac7b65-0011-5d92-ffffc1a52164e33e" Title="Uložené úkoly" Cl="0,0,0" WF="16384" gT="1eac7b65-0011-5d91-ffff12ca3726e573" pT="1eac7b65-0011-5d90-ffff12ca3726e573"/>
+			<C Type="LoxCaption" V="172" U="1eac7b65-0011-5d94-ffffc1a52164e33e" Title="SD karta" Cl="0,0,0" WF="16384" CaptionType="4" SubType="4"/>
+			<C Type="LoxCaption" V="172" U="1eac7b65-0011-5d96-ffffc1a52164e33e" Title="Skupiny světel" Cl="0,0,0" WF="16384" CaptionType="7" SubType="7"/>
+			<C Type="LoxCaption" V="172" U="1eac7b65-0011-5d98-ffffc1a52164e33e" Title="Intercom" Cl="0,0,0" WF="16384" CaptionType="21" SubType="21"/>
+			<C Type="WeatherCaption" V="172" U="1eac7b65-0011-5d9a-ffffc1a52164e33e" Title="Síťové periferie" WF="16384" CaptionType="27" SubType="27">
+				<C Type="LanInt" V="172" U="1eac7b65-0011-5d9c-ffffc1a52164e33e" Title="Síťová interkomunikace" WF="16384" Pt="61263" MId=""/>
+			</C>
+			<C Type="LoggerOutCaption" V="172" U="1eac7b65-0011-5d9e-ffffc1a52164e33e" Title="Zprávy" WF="16384">
+				<C Type="Logger" V="172" U="1eac7b65-0011-5da0-ffffc1a52164e33e" Title="Výchozí logger" WF="16384" Address="/log/user.log" Std="true"/>
+				<C Type="Notification" V="172" U="1eac7b65-0012-5da2-ffffc1a52164e33e" Title="Systémové notifikace" WF="16384" Entries="10" Sys="true">
+					<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e"/>
+				</C>
+				<C Type="Mailer" V="172" U="1eac7b65-0012-5da4-ffffc1a52164e33e" Title="Loxone Cloud Mailer" WF="16384" Cloud="true" Msg="true" EnableSys="true" SmtpReceiver="jakub.siakala97@gmail.com" SmtpSubject="Bez názvu"/>
+				<C Type="Caller" V="172" U="1eac7b65-0012-5da6-ffffc1a52164e33e" Title="Hasiči" WF="16384" Phone="" EnableSys="true" ES="1">
+					<C Type="CallerVirtualIn" IName="CVI0" V="172" U="1eac7b65-0012-5daa-ffffc1a52164e33e" Title="Výběrová klávesa 0" Nio="2" WF="16384" ValOT="1" MinTime="10" Idx="-1">
+						<Co K="Qm" U="1eac7b65-0012-5da8-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0012-5da9-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI1" V="172" U="1eac7b65-0012-5dae-ffffc1a52164e33e" Title="Výběrová klávesa 1" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1eac7b65-0012-5dac-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0012-5dad-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI2" V="172" U="1eac7b65-0012-5db2-ffffc1a52164e33e" Title="Výběrová klávesa 2" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1eac7b65-0012-5db0-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0012-5db1-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI3" V="172" U="1eac7b65-0012-5db6-ffffc1a52164e33e" Title="Výběrová klávesa 3" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1eac7b65-0012-5db4-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0012-5db5-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI4" V="172" U="1eac7b65-0012-5dba-ffffc1a52164e33e" Title="Výběrová klávesa 4" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1eac7b65-0012-5db8-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0012-5db9-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI5" V="172" U="1eac7b65-0013-5dbe-ffffc1a52164e33e" Title="Výběrová klávesa 5" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1eac7b65-0013-5dbc-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0013-5dbd-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI6" V="172" U="1eac7b65-0013-5dc2-ffffc1a52164e33e" Title="Výběrová klávesa 6" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1eac7b65-0013-5dc0-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0013-5dc1-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI7" V="172" U="1eac7b65-0013-5dc6-ffffc1a52164e33e" Title="Výběrová klávesa 7" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1eac7b65-0013-5dc4-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0013-5dc5-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI8" V="172" U="1eac7b65-0013-5dca-ffffc1a52164e33e" Title="Výběrová klávesa 8" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1eac7b65-0013-5dc8-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0013-5dc9-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI9" V="172" U="1eac7b65-0013-5dce-ffffc1a52164e33e" Title="Výběrová klávesa 9" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1eac7b65-0013-5dcc-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0013-5dcd-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="172" U="1eac7b65-0013-5dd0-ffffc1a52164e33e" Title="Policie" WF="16384" Phone="" EnableSys="true" ES="2">
+					<C Type="CallerVirtualIn" IName="CVI10" V="172" U="1eac7b65-0013-5dd4-ffffc1a52164e33e" Title="Výběrová klávesa 0" Nio="2" WF="16384" ValOT="1" MinTime="10" Idx="-1">
+						<Co K="Qm" U="1eac7b65-0013-5dd2-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0013-5dd3-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI11" V="172" U="1eac7b65-0014-5dd8-ffffc1a52164e33e" Title="Výběrová klávesa 1" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1eac7b65-0014-5dd6-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0014-5dd7-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI12" V="172" U="1eac7b65-0014-5ddc-ffffc1a52164e33e" Title="Výběrová klávesa 2" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1eac7b65-0014-5dda-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0014-5ddb-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI13" V="172" U="1eac7b65-0014-5de0-ffffc1a52164e33e" Title="Výběrová klávesa 3" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1eac7b65-0014-5dde-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0014-5ddf-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI14" V="172" U="1eac7b65-0014-5de4-ffffc1a52164e33e" Title="Výběrová klávesa 4" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1eac7b65-0014-5de2-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0014-5de3-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI15" V="172" U="1eac7b65-0014-5de8-ffffc1a52164e33e" Title="Výběrová klávesa 5" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1eac7b65-0014-5de6-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0014-5de7-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI16" V="172" U="1eac7b65-0015-5dec-ffffc1a52164e33e" Title="Výběrová klávesa 6" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1eac7b65-0015-5dea-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0015-5deb-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI17" V="172" U="1eac7b65-0015-5df0-ffffc1a52164e33e" Title="Výběrová klávesa 7" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1eac7b65-0015-5dee-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0015-5def-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI18" V="172" U="1eac7b65-0015-5df4-ffffc1a52164e33e" Title="Výběrová klávesa 8" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1eac7b65-0015-5df2-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0015-5df3-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI19" V="172" U="1eac7b65-0015-5df8-ffffc1a52164e33e" Title="Výběrová klávesa 9" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1eac7b65-0015-5df6-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0015-5df7-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="172" U="1eac7b65-0015-5dfa-ffffc1a52164e33e" Title="Záchranná služba" WF="16384" Phone="" EnableSys="true" ES="3">
+					<C Type="CallerVirtualIn" IName="CVI20" V="172" U="1eac7b65-0016-5dfe-ffffc1a52164e33e" Title="Výběrová klávesa 0" Nio="2" WF="16384" ValOT="1" MinTime="10" Idx="-1">
+						<Co K="Qm" U="1eac7b65-0016-5dfc-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0016-5dfd-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI21" V="172" U="1eac7b65-0016-5e02-ffffc1a52164e33e" Title="Výběrová klávesa 1" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1eac7b65-0016-5e00-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0016-5e01-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI22" V="172" U="1eac7b65-0016-5e06-ffffc1a52164e33e" Title="Výběrová klávesa 2" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1eac7b65-0016-5e04-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0016-5e05-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI23" V="172" U="1eac7b65-0016-5e0a-ffffc1a52164e33e" Title="Výběrová klávesa 3" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1eac7b65-0016-5e08-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0016-5e09-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI24" V="172" U="1eac7b65-0017-5e0e-ffffc1a52164e33e" Title="Výběrová klávesa 4" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1eac7b65-0017-5e0c-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0017-5e0d-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI25" V="172" U="1eac7b65-0017-5e12-ffffc1a52164e33e" Title="Výběrová klávesa 5" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1eac7b65-0017-5e10-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0017-5e11-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI26" V="172" U="1eac7b65-0017-5e16-ffffc1a52164e33e" Title="Výběrová klávesa 6" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1eac7b65-0017-5e14-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0017-5e15-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI27" V="172" U="1eac7b65-0017-5e1a-ffffc1a52164e33e" Title="Výběrová klávesa 7" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1eac7b65-0017-5e18-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0017-5e19-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI28" V="172" U="1eac7b65-0018-5e1e-ffffc1a52164e33e" Title="Výběrová klávesa 8" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1eac7b65-0018-5e1c-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0018-5e1d-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI29" V="172" U="1eac7b65-0018-5e22-ffffc1a52164e33e" Title="Výběrová klávesa 9" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1eac7b65-0018-5e20-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0018-5e21-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="172" U="1eac7b65-0018-5e24-ffffc1a52164e33e" Title="Nouzový kontakt 1" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI30" V="172" U="1eac7b65-0018-5e28-ffffc1a52164e33e" Title="Výběrová klávesa 0" Nio="2" WF="16384" ValOT="1" MinTime="10" Idx="-1">
+						<Co K="Qm" U="1eac7b65-0018-5e26-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0018-5e27-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI31" V="172" U="1eac7b65-0019-5e2c-ffffc1a52164e33e" Title="Výběrová klávesa 1" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1eac7b65-0019-5e2a-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0019-5e2b-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI32" V="172" U="1eac7b65-0019-5e30-ffffc1a52164e33e" Title="Výběrová klávesa 2" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1eac7b65-0019-5e2e-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0019-5e2f-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI33" V="172" U="1eac7b65-0019-5e34-ffffc1a52164e33e" Title="Výběrová klávesa 3" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1eac7b65-0019-5e32-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0019-5e33-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI34" V="172" U="1eac7b65-001a-5e38-ffffc1a52164e33e" Title="Výběrová klávesa 4" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1eac7b65-001a-5e36-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001a-5e37-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI35" V="172" U="1eac7b65-001a-5e3c-ffffc1a52164e33e" Title="Výběrová klávesa 5" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1eac7b65-001a-5e3a-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001a-5e3b-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI36" V="172" U="1eac7b65-001a-5e40-ffffc1a52164e33e" Title="Výběrová klávesa 6" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1eac7b65-001a-5e3e-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001a-5e3f-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI37" V="172" U="1eac7b65-001b-5e44-ffffc1a52164e33e" Title="Výběrová klávesa 7" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1eac7b65-001b-5e42-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001b-5e43-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI38" V="172" U="1eac7b65-001b-5e48-ffffc1a52164e33e" Title="Výběrová klávesa 8" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1eac7b65-001b-5e46-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001b-5e47-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI39" V="172" U="1eac7b65-001b-5e4c-ffffc1a52164e33e" Title="Výběrová klávesa 9" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1eac7b65-001b-5e4a-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001b-5e4b-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="172" U="1eac7b65-001b-5e4e-ffffc1a52164e33e" Title="Nouzový kontakt 2" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI40" V="172" U="1eac7b65-001c-5e52-ffffc1a52164e33e" Title="Výběrová klávesa 0" Nio="2" WF="16384" ValOT="1" MinTime="10" Idx="-1">
+						<Co K="Qm" U="1eac7b65-001c-5e50-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001c-5e51-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI41" V="172" U="1eac7b65-001c-5e56-ffffc1a52164e33e" Title="Výběrová klávesa 1" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1eac7b65-001c-5e54-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001c-5e55-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI42" V="172" U="1eac7b65-001c-5e5a-ffffc1a52164e33e" Title="Výběrová klávesa 2" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1eac7b65-001c-5e58-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001c-5e59-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI43" V="172" U="1eac7b65-001d-5e5e-ffffc1a52164e33e" Title="Výběrová klávesa 3" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1eac7b65-001d-5e5c-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001d-5e5d-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI44" V="172" U="1eac7b65-001d-5e62-ffffc1a52164e33e" Title="Výběrová klávesa 4" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1eac7b65-001d-5e60-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001d-5e61-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI45" V="172" U="1eac7b65-001d-5e66-ffffc1a52164e33e" Title="Výběrová klávesa 5" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1eac7b65-001d-5e64-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001d-5e65-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI46" V="172" U="1eac7b65-001e-5e6a-ffffc1a52164e33e" Title="Výběrová klávesa 6" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1eac7b65-001e-5e68-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001e-5e69-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI47" V="172" U="1eac7b65-001e-5e6e-ffffc1a52164e33e" Title="Výběrová klávesa 7" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1eac7b65-001e-5e6c-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001e-5e6d-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI48" V="172" U="1eac7b65-001f-5e72-ffffc1a52164e33e" Title="Výběrová klávesa 8" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1eac7b65-001f-5e70-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001f-5e71-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI49" V="172" U="1eac7b65-001f-5e76-ffffc1a52164e33e" Title="Výběrová klávesa 9" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1eac7b65-001f-5e74-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-001f-5e75-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="172" U="1eac7b65-001f-5e78-ffffc1a52164e33e" Title="Nouzový kontakt 3" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI50" V="172" U="1eac7b65-0020-5e7c-ffffc1a52164e33e" Title="Výběrová klávesa 0" Nio="2" WF="16384" ValOT="1" MinTime="10" Idx="-1">
+						<Co K="Qm" U="1eac7b65-0020-5e7a-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0020-5e7b-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI51" V="172" U="1eac7b65-0020-5e80-ffffc1a52164e33e" Title="Výběrová klávesa 1" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1eac7b65-0020-5e7e-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0020-5e7f-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI52" V="172" U="1eac7b65-0020-5e84-ffffc1a52164e33e" Title="Výběrová klávesa 2" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1eac7b65-0020-5e82-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0020-5e83-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI53" V="172" U="1eac7b65-0021-5e88-ffffc1a52164e33e" Title="Výběrová klávesa 3" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1eac7b65-0021-5e86-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0021-5e87-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI54" V="172" U="1eac7b65-0021-5e8c-ffffc1a52164e33e" Title="Výběrová klávesa 4" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1eac7b65-0021-5e8a-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0021-5e8b-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI55" V="172" U="1eac7b65-0022-5e90-ffffc1a52164e33e" Title="Výběrová klávesa 5" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1eac7b65-0022-5e8e-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0022-5e8f-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI56" V="172" U="1eac7b65-0022-5e94-ffffc1a52164e33e" Title="Výběrová klávesa 6" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1eac7b65-0022-5e92-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0022-5e93-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI57" V="172" U="1eac7b65-0023-5e98-ffffc1a52164e33e" Title="Výběrová klávesa 7" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1eac7b65-0023-5e96-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0023-5e97-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI58" V="172" U="1eac7b65-0023-5e9c-ffffc1a52164e33e" Title="Výběrová klávesa 8" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1eac7b65-0023-5e9a-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0023-5e9b-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI59" V="172" U="1eac7b65-0024-5ea0-ffffc1a52164e33e" Title="Výběrová klávesa 9" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1eac7b65-0024-5e9e-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0024-5e9f-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="Caller" V="172" U="1eac7b65-0024-5ea2-ffffc1a52164e33e" Title="Nouzový kontakt 4" WF="16384" Phone="" EnableSys="true">
+					<C Type="CallerVirtualIn" IName="CVI60" V="172" U="1eac7b65-0024-5ea6-ffffc1a52164e33e" Title="Výběrová klávesa 0" Nio="2" WF="16384" ValOT="1" MinTime="10" Idx="-1">
+						<Co K="Qm" U="1eac7b65-0024-5ea4-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0024-5ea5-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI61" V="172" U="1eac7b65-0025-5eaa-ffffc1a52164e33e" Title="Výběrová klávesa 1" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="1">
+						<Co K="Qm" U="1eac7b65-0025-5ea8-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0025-5ea9-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI62" V="172" U="1eac7b65-0025-5eae-ffffc1a52164e33e" Title="Výběrová klávesa 2" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="2">
+						<Co K="Qm" U="1eac7b65-0025-5eac-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0025-5ead-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI63" V="172" U="1eac7b65-0026-5eb2-ffffc1a52164e33e" Title="Výběrová klávesa 3" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="3">
+						<Co K="Qm" U="1eac7b65-0026-5eb0-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0026-5eb1-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI64" V="172" U="1eac7b65-0026-5eb6-ffffc1a52164e33e" Title="Výběrová klávesa 4" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="4">
+						<Co K="Qm" U="1eac7b65-0026-5eb4-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0026-5eb5-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI65" V="172" U="1eac7b65-0027-5eba-ffffc1a52164e33e" Title="Výběrová klávesa 5" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="5">
+						<Co K="Qm" U="1eac7b65-0027-5eb8-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0027-5eb9-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI66" V="172" U="1eac7b65-0027-5ebe-ffffc1a52164e33e" Title="Výběrová klávesa 6" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="6">
+						<Co K="Qm" U="1eac7b65-0027-5ebc-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0027-5ebd-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI67" V="172" U="1eac7b65-0028-5ec2-ffffc1a52164e33e" Title="Výběrová klávesa 7" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="7">
+						<Co K="Qm" U="1eac7b65-0028-5ec0-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0028-5ec1-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI68" V="172" U="1eac7b65-0028-5ec6-ffffc1a52164e33e" Title="Výběrová klávesa 8" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="8">
+						<Co K="Qm" U="1eac7b65-0028-5ec4-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0028-5ec5-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+					<C Type="CallerVirtualIn" IName="CVI69" V="172" U="1eac7b65-0029-5eca-ffffc1a52164e33e" Title="Výběrová klávesa 9" Nio="2" WF="16384" ValOT="1" MinTime="10" CallerKey="9">
+						<Co K="Qm" U="1eac7b65-0029-5ec8-00ff12ca3726e573"/>
+						<Co K="Qe" U="1eac7b65-0029-5ec9-01ff12ca3726e573"/>
+						<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e" St="2"/>
+						<Display Unit="&lt;v&gt;" StateOnly="true"/>
+					</C>
+				</C>
+			</C>
+			<C Type="LoxTree" V="172" U="1eac7b65-002a-5f14-ffffc1a52164e33e" Title="Tree" WF="16384" CycleUserProt="-1" ExtensionBlinkNum="5" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1" IDev="true" Serial="13000001" Installation="" SwitchBoard="" HwVersion="2">
+				<IoData Pr="1eac7b52-0150-5be5-ffffc1a52164e33e"/>
+				<C Type="LoxCaption" V="172" U="1eac7b65-002b-5f16-ffffc1a52164e33e" Title="Tree větev" Cl="0,0,0" WF="16384" CaptionType="3" SubType="3" IntId="Neznámý "/>
+			</C>
+			<C Type="LoxCaption" V="172" U="1eac7b65-002b-5f18-ffffc1a52164e33e" Title="Link" Cl="0,0,0" WF="16384" CaptionType="24" SubType="24"/>
+		</C>
+		<C Type="Program" V="172" U="1eac7b65-002f-5f3f-ffffc1a52164e33e" Title="8 bit modbus register" Ref="1eac7b65-000f-5d7e-ffffc1a52164e33e" WF="16384">
+			<C Type="Page" V="172" U="1eac7b65-002f-5f41-ffffc1a52164e33e" Title="Strana" WF="16384">
+				<IoData Cr="1eac7b52-015a-5c71-ffffc1a52164e33e" Pr="1eac7b52-0150-5be5-ffffc1a52164e33e"/>
+				<C Type="InputRef" V="172" U="1eac7d41-03a6-9e24-ffffc1a52164e33e" Title="0 - 8" Px="2592" Py="7200" Px2="4704" Py2="7392" Cl="238,238,238" Nio="4" Ref="1eac7d2e-0228-9213-ffffc1a52164e33e" WF="133120" Analog="true" LinkRefType="71">
+					<Co K="AI" Nc="1" U="1eac7d41-03a6-9e20-00ffedd7e6899d15">
+						<In Input="1eac7d2e-0228-9211-00ffca1b6e52fa38"/>
+					</Co>
+					<Co K="I" Nc="1" U="1eac7d41-03a6-9e21-01ffedd7e6899d15">
+						<In Input="1eac7d2e-0228-9212-01ffca1b6e52fa38"/>
+					</Co>
+					<Co K="AQ" U="1eac7d41-03a6-9e22-02ffedd7e6899d15"/>
+					<Co K="Q" U="1eac7d41-03a6-9e23-03ffedd7e6899d15"/>
+				</C>
+				<C Type="InputRef" V="172" U="1eac7d44-033e-a139-ffffc1a52164e33e" Title="9 - 16" Px="2592" Py="7872" Px2="4704" Py2="8064" Cl="238,238,238" Nio="4" Ref="1eac7d2f-02f8-9512-ffffc1a52164e33e" WF="133120" Analog="true" LinkRefType="71">
+					<Co K="AI" Nc="1" U="1eac7d44-033e-a135-00ff7f5dd1b9ec83">
+						<In Input="1eac7d2f-02f8-9510-00ffaf60af88dfa4"/>
+					</Co>
+					<Co K="I" Nc="1" U="1eac7d44-033e-a136-01ff7f5dd1b9ec83">
+						<In Input="1eac7d2f-02f8-9511-01ffaf60af88dfa4"/>
+					</Co>
+					<Co K="AQ" U="1eac7d44-033e-a137-02ff7f5dd1b9ec83"/>
+					<Co K="Q" U="1eac7d44-033e-a138-03ff7f5dd1b9ec83"/>
+				</C>
+				<C Type="InputRef" V="172" U="1eac7edc-0388-c2af-ffffc1a52164e33e" Title="16 bit" Px="2688" Py="4992" Px2="4800" Py2="5184" Cl="238,238,238" Nio="4" Ref="1eac7ed4-02c1-bc81-ffffc1a52164e33e" WF="133120" Analog="true" LinkRefType="71">
+					<Co K="AI" Nc="1" U="1eac7edc-0388-c2ab-00ff76a96a4e9b76">
+						<In Input="1eac7ed4-02c1-bc7f-00ff0d4320b8567b"/>
+					</Co>
+					<Co K="I" Nc="1" U="1eac7edc-0388-c2ac-01ff76a96a4e9b76">
+						<In Input="1eac7ed4-02c1-bc80-01ff0d4320b8567b"/>
+					</Co>
+					<Co K="AQ" U="1eac7edc-0388-c2ad-02ff76a96a4e9b76"/>
+					<Co K="Q" U="1eac7edc-0388-c2ae-03ff76a96a4e9b76"/>
+				</C>
+				<C Type="InputRef" V="172" U="1eac7ee5-0310-c5db-ffffc1a52164e33e" Title="16 bit" Px="2688" Py="3648" Px2="4800" Py2="3840" Cl="238,238,238" Nio="4" Ref="1eac7ed4-02c1-bc81-ffffc1a52164e33e" WF="133120" Analog="true" LinkRefType="71">
+					<Co K="AI" Nc="1" U="1eac7ee5-0310-c5d7-00ffd97ab06ff936">
+						<In Input="1eac7ed4-02c1-bc7f-00ff0d4320b8567b"/>
+					</Co>
+					<Co K="I" Nc="1" U="1eac7ee5-0310-c5d8-01ffd97ab06ff936">
+						<In Input="1eac7ed4-02c1-bc80-01ff0d4320b8567b"/>
+					</Co>
+					<Co K="AQ" U="1eac7ee5-0310-c5d9-02ffd97ab06ff936"/>
+					<Co K="Q" U="1eac7ee5-0310-c5da-03ffd97ab06ff936"/>
+				</C>
+				<C Type="Mod" V="172" U="1eac7f5f-0167-d259-ffffc1a52164e33e" Title="O6" Px="5280" Py="4704" Px2="6624" Py2="5376" Cl="105,195,80" Nio="4" LtE="514621287" WF="131072">
+					<Co K="Input1" Nc="1" U="1eac7f5f-0167-d255-00fff8d317fcac34">
+						<In Input="1eac7edc-0388-c2ad-02ff76a96a4e9b76"/>
+					</Co>
+					<Co K="Input2" Def="256" U="1eac7f5f-0167-d256-01fff8d317fcac34"/>
+					<Co K="AQ" U="1eac7f5f-0167-d257-02fff8d317fcac34"/>
+					<Co K="AQ2" U="1eac7f5f-0167-d258-03fff8d317fcac34"/>
+				</C>
+				<C Type="Sub" V="172" U="1eac82f7-00e2-38af-ffffc1a52164e33e" Title="O7" Px="7008" Py="3360" Px2="8352" Py2="4032" Cl="105,195,80" Nio="3">
+					<Co K="Input1" Nc="1" U="1eac82f7-00e2-38ac-00ff051f7c172493">
+						<In Input="1eac7ee5-0310-c5d9-02ffd97ab06ff936"/>
+					</Co>
+					<Co K="Input2" Nc="1" U="1eac82f7-00e2-38ad-01ff051f7c172493">
+						<In Input="1eac7f5f-0167-d258-03fff8d317fcac34"/>
+					</Co>
+					<Co K="AQ" U="1eac82f7-00e2-38ae-02ff051f7c172493"/>
+				</C>
+				<C Type="Div" V="172" U="1eac8338-0147-551b-ffffc1a52164e33e" Title="O8" Px="8928" Py="3360" Px2="10272" Py2="4032" Cl="105,195,80" Nio="3" LtE="514622269">
+					<Co K="Input1" Nc="1" U="1eac8338-0147-5518-00ff42fa467c3eb9">
+						<In Input="1eac82f7-00e2-38ae-02ff051f7c172493"/>
+					</Co>
+					<Co K="Input2" Def="256" U="1eac8338-0147-5519-01ff42fa467c3eb9"/>
+					<Co K="AQ" U="1eac8338-0147-551a-02ff42fa467c3eb9"/>
+				</C>
+				<C Type="Text" V="172" U="1eac8474-025b-780c-ffffc1a52164e33e" Title="Poznámka" Px="2784" Py="3168" Px2="4240" Py2="3372" Cl="255,249,196" LtE="514622599" Text="UPPER 8 BITS"/>
+				<C Type="Text" V="172" U="1eac847a-001f-812b-ffff49f4429d2c4d" Title="Poznámka" Px="2784" Py="4512" Px2="4279" Py2="4716" Cl="255,249,196" LtE="514622593" Text="LOWER 8 BITS"/>
+				<C Type="Text" V="172" U="1eac84b2-012a-aed9-ffff0c1651c66541" Title="Poznámka" Px="4896" Py="1824" Px2="8019" Py2="2796" Cl="255,249,196" LtE="514622666" Text=".
+.
+.     .     .     DECODER     .     .     .
+.
+."/>
+				<C Type="Text" V="172" U="1eac84ce-02a7-c121-ffff259ee5ae6b1c" Title="Poznámka" Px="4800" Py="5664" Px2="7656" Py2="6636" Cl="255,249,196" LtE="514622676" Text=".
+.
+.     .     .     CODER     .     .     .
+.
+."/>
+				<C Type="Mult" V="172" U="1eac853b-0141-1127-ffffc1a52164e33e" Title="O9" Px="5952" Py="7584" Px2="7296" Py2="8256" Cl="105,195,80" Nio="3" LtE="514622783" WF="131072">
+					<Co K="Input1" Nc="1" U="1eac853b-0141-1124-00ff76fceb0c8f3e">
+						<In Input="1eac7d44-033e-a137-02ff7f5dd1b9ec83"/>
+					</Co>
+					<Co K="Input2" Def="256" U="1eac853b-0141-1125-01ff76fceb0c8f3e"/>
+					<Co K="AQ" U="1eac853b-0141-1126-02ff76fceb0c8f3e"/>
+				</C>
+				<C Type="Add" V="172" U="1eac8550-01df-20d0-ffffc1a52164e33e" Title="O10" Px="7680" Py="6912" Px2="9024" Py2="7584" Cl="105,195,80" Nio="3">
+					<Co K="Input1" Nc="1" U="1eac8550-01df-20cd-00ffb6684e57fdf5">
+						<In Input="1eac7d41-03a6-9e22-02ffedd7e6899d15"/>
+					</Co>
+					<Co K="Input2" Nc="1" U="1eac8550-01df-20ce-01ffb6684e57fdf5">
+						<In Input="1eac853b-0141-1126-02ff76fceb0c8f3e"/>
+					</Co>
+					<Co K="AQ" U="1eac8550-01df-20cf-02ffb6684e57fdf5"/>
+				</C>
+			</C>
+		</C>
+	</C>
+</ControlList>
